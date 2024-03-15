@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.grid-container{
+    display: flex;
+    width: 960px;
+    height: 960px;
+    background-color: aqua;
+    flex-shrink: 1;
+    /* margin: 0 auto; */
+}
+
+
+.grid-item .grid-item-sub{
+    display: flex;
+    background-color: white;
+    /* border: 1px solid red; */
+
+}
+
+.grid-item{
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    
+}
+
+.grid-item-sub{
+    flex: 1 1 0%;
+}
